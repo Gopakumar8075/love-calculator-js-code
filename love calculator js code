@@ -1,0 +1,20 @@
+prompt ("enter your name");
+prompt ("enter crush name");
+
+var numGen = Math.random();
+console.log (numGen);
+
+numGen = numGen * 100;
+numGen = Math.floor(numGen) + 1;
+
+if (numGen > 70 ){
+    alert(numGen + " %" + " your love is heavly");
+}
+
+if (numGen > 30 && numGen <= 70)
+{
+    alert(numGen + " %" );
+}
+if (numGen < 30 ){
+        alert(numGen + " %" + "your love is like oil and water");
+}
